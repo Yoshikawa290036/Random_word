@@ -7,7 +7,7 @@ JST = datetime.timezone(t_delta, 'JST')
 
 
 def main():
-    key_word = "hello"
+    key_word = "おなか吹田市"
     now = datetime.datetime.now(JST)
     time_str = now.strftime('%Y %m %d %H %M %S')
     shuffuled_key_word = ''.join(random.sample(key_word, len(key_word)))
